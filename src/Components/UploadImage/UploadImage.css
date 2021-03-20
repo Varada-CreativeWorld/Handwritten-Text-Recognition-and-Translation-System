@@ -1,0 +1,15 @@
+#upimg{
+    /* display: none; */
+    width: 200px;
+    height: 30px;
+}
+#sub{
+    display: none;
+    width: 100px;
+    height: 30px;
+}
+#inpText{
+    /* display: none; */
+    width: 100px;
+    height: 30px;
+}

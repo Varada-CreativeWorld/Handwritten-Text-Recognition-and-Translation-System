@@ -1,0 +1,25 @@
+.ContainerStyle{
+    background-color: grey;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+}
+
+.BoxStyle{
+    margin: auto;
+    /* padding-top: 40px; */
+    /* border: 2px Solid Black; */
+    top: 30px;
+    position: relative;
+    box-shadow: 5px 5px 4px  #373a40;
+}
+
+h3{
+    top: 20px;
+}
+
+.output{
+    font-size: 50px;
+    font-weight: bold;
+}
