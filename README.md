@@ -1,4 +1,21 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Prject Description
+
+This project is an **Offline Handwritten Text Recognition (HTR) System** that transcribe Hindi Character or English word contained in scanned images into digital text and display the output in Web Page. In addition to transcribing, translation of text from Hindi to English and vice-versa  is also incorporated using python API.
+
+To accomplish the above task of transcribing, Two main apporached have been used:
+classifying words directly and character segmentation. 
+
+For the former,Convolutional Neural Network (CNN) was used with various architectures to train a model that can accurately classify words. 
+For the latter,Long Short Term Memory networks (LSTM) was used with convolution to construct bounding boxes for each character. 
+Then the segmented characters were passed to a CNN for classification, and then reconstruct each word according to the results of classification and segmentation. 
+
+The model is developed using **Tensorflow and Keras**, and the Web Application using **React and Flask** Frameworks.
+
+## SYSTEM FLOWCHART
+
+![image](https://user-images.githubusercontent.com/69352768/111862953-8bd7ea80-897e-11eb-97f7-c8e8fb11ded8.png)
+
+
 
 ## Available Scripts
 
